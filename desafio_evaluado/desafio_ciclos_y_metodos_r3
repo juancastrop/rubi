@@ -11,17 +11,17 @@ end
 
 def masa_corporal (imc)
     if imc < 18.5
-    puts "Bajo peso"
+    puts "Tienes Bajo peso con un imc de #{imc}"
     elsif imc < 25
-    puts "Normal"
+    puts "Tienes Normal con un imc de #{imc}"
     elsif imc < 30
-    puts "Sobrepeso"
+    puts "Tienes Sobrepeso con un imc de #{imc}"
     elsif imc < 35
-    puts "Obesidad grado I - Moderado"
+    puts "Tienes Obesidad grado I - Moderado con un imc de #{imc}"
     elsif imc < 40
-    puts "Obesidad grado II - Severo"
+    puts "Tienes Obesidad grado II - Severo con un imc de #{imc}"
     else
-    puts "Obesidad grado III - Muy severo"
+    puts "Tienes Obesidad grado III - Muy severo con un imc de #{imc}"
     end
 
 end
